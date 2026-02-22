@@ -170,10 +170,9 @@ def check_url(entry: dict) -> dict:
 
     if url_type == "github_repo":
         return check_github_repo(url)
-    elif url_type in ("published_doc", "draft_doc") or url_type == "forum":
-        return check_http_resource(url, hash_body=True)
     else:
-        return {"error": f"Onbekend type: {url_type}"}
+        # Alle niet-GitHub URLs als HTTP resource checken
+        return check_http_resource(url, hash_body=True)
 
 
 def load_checksums(path: Path) -> dict:
