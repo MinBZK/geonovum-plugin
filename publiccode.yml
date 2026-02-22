@@ -14,8 +14,8 @@ description:
     longDescription: >
       Claude Code plugin voor het werken met Geonovum geo-standaarden voor
       ruimtelijke data in Nederland. Bevat skills voor OGC API services,
-      metadata, informatiemodellen, INSPIRE en 3D standaarden. Standaarden op
-      de 'pas-toe-of-leg-uit'-lijst van het Forum Standaardisatie.
+      metadata, informatiemodellen, INSPIRE en 3D standaarden. Standaarden op de
+      'pas-toe-of-leg-uit'-lijst van het Forum Standaardisatie.
     shortDescription: Claude Code plugin voor Geonovum geo-standaarden
   en:
     features:
@@ -45,6 +45,6 @@ maintenance:
   type: community
 name: geonovum-plugin
 releaseDate: '2026-02-22'
-softwareVersion: 0.1.0
+softwareVersion: 0.1.1
 softwareType: standalone/other
 url: https://github.com/MinBZK/geonovum-plugin
