@@ -44,6 +44,10 @@ De skills zijn gebaseerd op:
 - [Forum Standaardisatie](https://www.forumstandaardisatie.nl) — geo-standaarden op de lijst
 - [PDOK](https://www.pdok.nl) — praktische implementatie en services
 
+## Onderdeel van
+
+Deze plugin is onderdeel van de [overheid-claude-plugins](https://github.com/MinBZK/overheid-claude-plugins) marketplace.
+
 ## Licentie
 
 [EUPL-1.2](LICENSE) - European Union Public Licence
