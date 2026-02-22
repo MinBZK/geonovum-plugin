@@ -115,18 +115,20 @@ Valideer tegen het NL profiel voordat je publiceert. Gebruik de Geonovum validat
 
 ### Stap 3: Publiceren
 
-**Optie A: NGR-editor (webinterface)**
+#### Optie A: NGR-editor (webinterface)
+
 1. Log in op [nationaalgeoregister.nl](https://www.nationaalgeoregister.nl/)
 2. Ga naar de metadata-editor
 3. Vul de velden in of importeer een XML-bestand
 4. Sla op en publiceer
 
-**Optie B: CSW Harvesting**
+#### Optie B: CSW Harvesting
+
 1. Publiceer metadata op een eigen CSW-endpoint (bijv. GeoNetwork)
 2. Registreer het endpoint bij het NGR
 3. NGR harvest periodiek de metadata
 
-**Optie C: GeoNetwork REST API**
+#### Optie C: GeoNetwork REST API
 ```bash
 # Metadata uploaden via GeoNetwork REST API
 curl -X PUT "https://www.nationaalgeoregister.nl/geonetwork/srv/api/records" \
