@@ -136,7 +136,7 @@ constraint=keyword=%27INSPIRE%27&constraintLanguage=CQL_TEXT"
 
 # Controleer view service beschikbaarheid
 curl -s -o /dev/null -w "%{http_code}" \
-  "https://service.pdok.nl/brt/achtergrondkaart/wms/v2_0?service=WMS&request=GetCapabilities"
+  "https://service.pdok.nl/hwh/luchtfotorgb/wms/v1_0?service=WMS&request=GetCapabilities"
 
 # Controleer download service beschikbaarheid
 curl -s -o /dev/null -w "%{http_code}" \

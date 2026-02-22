@@ -180,7 +180,7 @@ curl -s -X POST "https://inspire.ec.europa.eu/validator/v2/TestRuns" \
     "testObject": {
       "resources": [{
         "resource": {
-          "href": "https://service.pdok.nl/brt/achtergrondkaart/wms/v2_0?service=WMS&request=GetCapabilities"
+          "href": "https://service.pdok.nl/hwh/luchtfotorgb/wms/v1_0?service=WMS&request=GetCapabilities"
         }
       }]
     }

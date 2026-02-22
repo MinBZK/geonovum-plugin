@@ -47,21 +47,21 @@ WMS levert kaartafbeeldingen (rasterformaat). Drie operaties:
 - **GetFeatureInfo** — haalt attribuutinfo op voor een punt op de kaart
 
 ```bash
-# WMS GetCapabilities — BRT Achtergrondkaart
-curl -s "https://service.pdok.nl/brt/achtergrondkaart/wms/v2_0?service=WMS&request=GetCapabilities" \
+# WMS GetCapabilities — Luchtfoto RGB
+curl -s "https://service.pdok.nl/hwh/luchtfotorgb/wms/v1_0?service=WMS&request=GetCapabilities" \
   | head -50
 
 # WMS GetMap — kaartafbeelding ophalen (PNG)
-curl -s "https://service.pdok.nl/brt/achtergrondkaart/wms/v2_0?\
+curl -s "https://service.pdok.nl/hwh/luchtfotorgb/wms/v1_0?\
 service=WMS&version=1.3.0&request=GetMap&\
-layers=standaard&crs=EPSG:28992&\
+layers=Actueel_orthoHR&crs=EPSG:28992&\
 bbox=120000,480000,130000,490000&\
 width=800&height=800&format=image/png" -o /tmp/kaart.png
 
 # WMS GetFeatureInfo — attribuutinfo op een punt
-curl -s "https://service.pdok.nl/brt/achtergrondkaart/wms/v2_0?\
+curl -s "https://service.pdok.nl/hwh/luchtfotorgb/wms/v1_0?\
 service=WMS&version=1.3.0&request=GetFeatureInfo&\
-layers=standaard&query_layers=standaard&\
+layers=Actueel_orthoHR&query_layers=Actueel_orthoHR&\
 crs=EPSG:28992&bbox=120000,480000,130000,490000&\
 width=800&height=800&i=400&j=400&\
 info_format=application/json"
@@ -131,26 +131,29 @@ service=WCS&request=GetCapabilities" | head -50
 REST-gebaseerde opvolger van WFS. Gebruikt JSON/GeoJSON, OpenAPI-specificatie, en standaard HTTP-methoden.
 
 ```bash
-# Beschikbare collecties ophalen (BAG)
-curl -s "https://api.pdok.nl/lv/bag/ogc/v1/collections" | python3 -m json.tool
+# Beschikbare collecties ophalen (Bestuurlijke Gebieden)
+curl -s "https://api.pdok.nl/kadaster/brk-bestuurlijke-gebieden/ogc/v1/collections?f=json" \
+  | python3 -m json.tool
 
 # Specifieke collectie bekijken
-curl -s "https://api.pdok.nl/lv/bag/ogc/v1/collections/pand" | python3 -m json.tool
+curl -s "https://api.pdok.nl/kadaster/brk-bestuurlijke-gebieden/ogc/v1/collections/gemeentegebied?f=json" \
+  | python3 -m json.tool
 
-# Features ophalen (eerste 10 panden)
-curl -s "https://api.pdok.nl/lv/bag/ogc/v1/collections/pand/items?limit=10" \
+# Features ophalen (eerste 10 gemeenten)
+curl -s "https://api.pdok.nl/kadaster/brk-bestuurlijke-gebieden/ogc/v1/collections/gemeentegebied/items?limit=10&f=json" \
   | python3 -m json.tool
 
 # Feature op basis van ID
-curl -s "https://api.pdok.nl/lv/bag/ogc/v1/collections/pand/items/{id}" \
+curl -s "https://api.pdok.nl/kadaster/brk-bestuurlijke-gebieden/ogc/v1/collections/gemeentegebied/items/{id}?f=json" \
   | python3 -m json.tool
 
 # Ruimtelijke filter met bbox
-curl -s "https://api.pdok.nl/lv/bag/ogc/v1/collections/pand/items?\
-bbox=4.89,52.37,4.91,52.38&limit=10" | python3 -m json.tool
+curl -s "https://api.pdok.nl/kadaster/brk-bestuurlijke-gebieden/ogc/v1/collections/gemeentegebied/items?\
+bbox=4.89,52.37,4.91,52.38&limit=10&f=json" | python3 -m json.tool
 
 # OpenAPI spec van de service
-curl -s "https://api.pdok.nl/lv/bag/ogc/v1/api" | python3 -m json.tool | head -50
+curl -s "https://api.pdok.nl/kadaster/brk-bestuurlijke-gebieden/ogc/v1/api?f=json" \
+  | python3 -m json.tool | head -50
 ```
 
 ## Python Implementatie
@@ -160,11 +163,11 @@ curl -s "https://api.pdok.nl/lv/bag/ogc/v1/api" | python3 -m json.tool | head -5
 ```python
 import requests
 
-# OGC API Features — panden ophalen
-base_url = "https://api.pdok.nl/lv/bag/ogc/v1"
+# OGC API Features — bestuurlijke gebieden ophalen
+base_url = "https://api.pdok.nl/kadaster/brk-bestuurlijke-gebieden/ogc/v1"
 
 # Collecties ophalen
-collecties = requests.get(f"{base_url}/collections").json()
+collecties = requests.get(f"{base_url}/collections", params={"f": "json"}).json()
 for c in collecties["collections"]:
     print(f"  {c['id']}: {c.get('title', '')}")
 
@@ -172,12 +175,13 @@ for c in collecties["collections"]:
 params = {
     "bbox": "4.89,52.37,4.91,52.38",
     "limit": 50,
+    "f": "json",
 }
-response = requests.get(f"{base_url}/collections/pand/items", params=params)
+response = requests.get(f"{base_url}/collections/gemeentegebied/items", params=params)
 features = response.json()
-print(f"Gevonden: {features['numberMatched']} panden")
+print(f"Gevonden: {features.get('numberMatched', len(features.get('features', [])))} gemeenten")
 for feature in features["features"]:
-    print(f"  ID: {feature['id']}, Bouwjaar: {feature['properties'].get('bouwjaar')}")
+    print(f"  ID: {feature['id']}, Naam: {feature['properties'].get('naam')}")
 ```
 
 ### Met OWSLib (WMS/WFS)
@@ -187,11 +191,11 @@ from owslib.wms import WebMapService
 from owslib.wfs import WebFeatureService
 
 # WMS — kaartafbeelding ophalen
-wms = WebMapService("https://service.pdok.nl/brt/achtergrondkaart/wms/v2_0")
+wms = WebMapService("https://service.pdok.nl/hwh/luchtfotorgb/wms/v1_0")
 print("Lagen:", list(wms.contents))
 
 img = wms.getmap(
-    layers=["standaard"],
+    layers=["Actueel_orthoHR"],
     srs="EPSG:28992",
     bbox=(120000, 480000, 130000, 490000),
     size=(800, 800),
