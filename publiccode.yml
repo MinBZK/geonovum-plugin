@@ -1,0 +1,50 @@
+publiccodeYmlVersion: '0.2'
+categories:
+  - it-development
+description:
+  nl:
+    features:
+      - 6 skills voor geo-standaarden
+      - OGC API services (WMS, WFS, WMTS, OGC API Features)
+      - Metadata standaarden (ISO 19115, NGR, DCAT)
+      - Informatiemodellen (NEN 3610, MIM, IMGeo)
+      - INSPIRE implementatie en validatie
+      - 3D standaarden (CityGML, 3D Tiles)
+    genericName: Claude Code plugin
+    longDescription: >
+      Claude Code plugin voor het werken met Geonovum geo-standaarden voor
+      ruimtelijke data in Nederland. Bevat skills voor OGC API services,
+      metadata, informatiemodellen, INSPIRE en 3D standaarden. Standaarden op
+      de 'pas-toe-of-leg-uit'-lijst van het Forum Standaardisatie.
+    shortDescription: Claude Code plugin voor Geonovum geo-standaarden
+  en:
+    features:
+      - 6 skills for geo-standards
+      - OGC API services (WMS, WFS, WMTS, OGC API Features)
+      - Metadata standards (ISO 19115, NGR, DCAT)
+      - Information models (NEN 3610, MIM, IMGeo)
+      - INSPIRE implementation and validation
+      - 3D standards (CityGML, 3D Tiles)
+    genericName: Claude Code plugin
+    longDescription: >
+      Claude Code plugin for working with Geonovum geo-standards for spatial
+      data in the Netherlands. Contains skills for OGC API services, metadata,
+      information models, INSPIRE and 3D standards.
+    shortDescription: Claude Code plugin for Geonovum geo-standards
+developmentStatus: development
+legal:
+  license: EUPL-1.2
+localisation:
+  availableLanguages:
+    - nl
+    - en
+  localisationReady: false
+maintenance:
+  contacts:
+    - name: MinBZK
+  type: community
+name: geonovum-plugin
+releaseDate: '2026-02-22'
+softwareVersion: 0.1.0
+softwareType: standalone/other
+url: https://github.com/MinBZK/geonovum-plugin

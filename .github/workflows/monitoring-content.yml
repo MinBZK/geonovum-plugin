@@ -1,0 +1,63 @@
+name: Monitoring - Content Changes
+
+on:
+  schedule:
+    - cron: '0 7 * * *'  # dagelijks 07:00 UTC
+  workflow_dispatch:
+
+concurrency:
+  group: monitoring-content
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check-content:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Installeer uv
+        uses: astral-sh/setup-uv@v7
+
+      - name: Installeer dependencies
+        run: uv sync
+
+      - name: Genereer URL manifest
+        run: |
+          uv run python scripts/extract_urls.py \
+            --skills-dir skills/ \
+            --output /tmp/manifest.json \
+            --format json
+
+      - name: Herstel checksums uit cache
+        uses: actions/cache/restore@v4
+        with:
+          path: .github/monitoring/checksums.json
+          key: monitoring-checksums-
+          restore-keys: monitoring-checksums-
+
+      - name: Zorg dat labels bestaan
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh label create "monitoring" --color "0E8A16" --description "Automatische monitoring" --force 2>/dev/null || true
+          gh label create "content-changed" --color "FBCA04" --description "Content wijziging gedetecteerd" --force 2>/dev/null || true
+
+      - name: Controleer content wijzigingen
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          uv run python scripts/monitor_content.py \
+            --manifest /tmp/manifest.json \
+            --checksums .github/monitoring/checksums.json
+
+      - name: Bewaar checksums in cache
+        uses: actions/cache/save@v4
+        if: always()
+        with:
+          path: .github/monitoring/checksums.json
+          key: monitoring-checksums-${{ github.run_id }}
