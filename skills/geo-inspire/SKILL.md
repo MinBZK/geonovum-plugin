@@ -141,7 +141,7 @@ outputFormat=application/gml+xml;+version=3.2&\
 srsName=urn:ogc:def:crs:EPSG::4258"
 
 # Atom feed voorbeeld (veelgebruikt voor bulk downloads)
-curl -s "https://service.pdok.nl/lv/bag/atom/v1_0/bag.xml" | head -50
+curl -s "https://service.pdok.nl/kadaster/bag/atom/bag.xml" | head -50
 ```
 
 ### Discovery Service (CSW)

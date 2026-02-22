@@ -110,10 +110,9 @@ Query parameters voor `/items`:
 | BRT Achtergrondkaart | WMTS | `https://service.pdok.nl/brt/achtergrondkaart/wmts/v2_0` |
 | BAG (adressen/gebouwen) | WFS | `https://service.pdok.nl/lv/bag/wfs/v2_0` |
 | Bestuurlijke Gebieden | OGC API Features | `https://api.pdok.nl/kadaster/brk-bestuurlijke-gebieden/ogc/v1` |
-| BGT (grootschalige topografie) | WFS | `https://api.pdok.nl/lv/bgt/ogc/v1` |
+| BGT (grootschalige topografie) | OGC API Features | `https://api.pdok.nl/lv/bgt/ogc/v1` |
 | BRK (kadastrale kaart) | WMS | `https://service.pdok.nl/kadaster/kadastralekaart/wms/v5_0` |
 | CBS Wijken/Buurten | WFS | `https://service.pdok.nl/cbs/wijkenbuurten/2024/wfs/v1_0` |
-| Luchtfoto (actueel) | WMS | `https://service.pdok.nl/hwh/luchtfotorgb/wms/v1_0` |
 | AHN (hoogtedata) | WCS | `https://service.pdok.nl/rws/ahn/wcs/v1_0` |
 | Bestuurlijke grenzen | WFS | `https://service.pdok.nl/kadaster/bestuurlijkegebieden/wfs/v1_0` |
 

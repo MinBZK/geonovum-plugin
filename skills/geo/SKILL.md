@@ -56,7 +56,7 @@ De geo-standaarden staan op de ['pas-toe-of-leg-uit'-lijst](https://www.forumsta
 |-------------|-----|---------|
 | [Geonovum](https://www.geonovum.nl/) | Standaardontwikkeling en -beheer | geonovum.nl |
 | [PDOK](https://www.pdok.nl/) | Nationale geo-dataportaal, hosting van services | pdok.nl |
-| [Kadaster](https://www.kadaster.nl/) | Basisregistraties (BAG, BRK, BGT), PDOK-beheer | kadaster.nl |
+| [Kadaster](https://www.kadaster.nl/) | Basisregistraties (BAG, BRK), PDOK-beheer, Landelijke Voorziening BGT | kadaster.nl |
 | [Rijkswaterstaat](https://www.rijkswaterstaat.nl/) | Infrastructuurdata, waterdata | rijkswaterstaat.nl |
 | [CBS](https://www.cbs.nl/) | Statistische geodata, wijk/buurtkaart | cbs.nl |
 

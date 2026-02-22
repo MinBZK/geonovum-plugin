@@ -30,6 +30,7 @@ OGC-services zijn de standaard manier om geodata beschikbaar te stellen via het 
 | WMS 1.3.0 | View | Kaartafbeeldingen (PNG/JPEG) opvragen | Aanbevolen |
 | WFS 2.0 | Download | Vector features (GML/GeoJSON) opvragen | Aanbevolen |
 | WCS 2.0 | Coverage | Rasterdata (gridded data) ophalen | Geen Forum status |
+| GeoPackage 1.3.1 | Bestandsformaat | Lokale opslag van vector- en rasterdata (SQLite) | Verplicht |
 
 ## Repositories
 

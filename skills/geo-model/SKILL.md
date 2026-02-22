@@ -37,8 +37,8 @@ allowed-tools:
 | [Geonovum/NEN3610-Linkeddata](https://github.com/Geonovum/NEN3610-Linkeddata) | NEN 3610 linked data profiel |
 | [Geonovum/MIM-Werkomgeving](https://github.com/Geonovum/MIM-Werkomgeving) | Metamodel Informatie Modellering |
 | [Geonovum/IMGeo](https://github.com/Geonovum/IMGeo) | Informatiemodel Geografie (BGT/IMGeo) |
-| [Geonovum/IMRO](https://github.com/Geonovum/IMRO) | Informatiemodel Ruimtelijke Ordening |
-| [Geonovum/IMKL](https://github.com/Geonovum/IMKL) | Informatiemodel Kabels en Leidingen |
+| [Geonovum/imro](https://github.com/Geonovum/imro) | Informatiemodel Ruimtelijke Ordening |
+| [Geonovum/imkl](https://github.com/Geonovum/imkl) | Informatiemodel Kabels en Leidingen |
 
 ## NEN 3610 — Basismodel Geo-informatie
 
