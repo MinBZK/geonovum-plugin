@@ -9,12 +9,12 @@
 
 ```bash
 # Via de overheid-plugins marketplace (aanbevolen)
-claude plugin marketplace add MinBZK/overheid-claude-plugins
+claude plugin marketplace add developer-overheid-nl/overheid-claude-plugins
 claude plugin install geonovum@overheid-plugins
 
 # Per sessie
-git clone https://github.com/MinBZK/geonovum-plugin.git
-claude --plugin-dir ./geonovum-plugin
+git clone https://github.com/developer-overheid-nl/geo-plugin.git
+claude --plugin-dir ./geo-plugin
 ```
 
 ## Skills
@@ -46,7 +46,7 @@ De skills zijn gebaseerd op:
 
 ## Onderdeel van
 
-Deze plugin is onderdeel van de [overheid-claude-plugins](https://github.com/MinBZK/overheid-claude-plugins) marketplace.
+Deze plugin is onderdeel van de [overheid-claude-plugins](https://github.com/developer-overheid-nl/overheid-claude-plugins) marketplace.
 
 ## Licentie
 

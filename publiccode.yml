@@ -41,10 +41,10 @@ localisation:
   localisationReady: false
 maintenance:
   contacts:
-    - name: MinBZK
+    - name: developer-overheid-nl
   type: community
-name: geonovum-plugin
+name: geo-plugin
 releaseDate: '2026-02-22'
 softwareVersion: 0.1.3
 softwareType: standalone/other
-url: https://github.com/MinBZK/geonovum-plugin
+url: https://github.com/developer-overheid-nl/geo-plugin
