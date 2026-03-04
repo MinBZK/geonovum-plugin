@@ -99,7 +99,7 @@ Pre-commit hooks draaien automatisch ruff + markdownlint bij elke commit.
 
 ## Cross-references
 
-- `/geo-api` verwijst naar `/ls-api` (uit logius-standaarden-plugin) voor de ADR geo-module
+- `/geo-api` verwijst naar `/ls-api` (uit skills-standaarden) voor de ADR geo-module
 - `/ls-api` kan terugverwijzen naar `/geonovum` voor diepere geo-standaarden
 
 ## Plugin testen
