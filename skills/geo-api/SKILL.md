@@ -271,7 +271,7 @@ ogr2ogr -f "GeoJSON" /tmp/panden_wgs84.geojson \
 
 ## Cross-referenties
 
-- Gebruik `/ls-api` (uit logius-standaarden-plugin) voor de **ADR geo-module** — richtlijnen voor GeoJSON, CRS-negotiatie en bbox in REST APIs.
+- Gebruik `/ls-api` (uit skills-standaarden) voor de **ADR geo-module** — richtlijnen voor GeoJSON, CRS-negotiatie en bbox in REST APIs.
 - Gebruik `/geo-meta` voor metadata van services (ISO 19115, CSW).
 - Gebruik `/geo-inspire` voor INSPIRE-conforme view en download services.
 

@@ -111,4 +111,4 @@ gh api orgs/Geonovum/repos --paginate \
 | "Wat is NEN 3610?" | `/geo-model` |
 | "Hoe voldoe ik aan INSPIRE?" | `/geo-inspire` |
 | "Hoe werk ik met CityGML of 3D data?" | `/geo-3d` |
-| "Hoe gebruik ik de ADR geo-module?" | `/ls-api` (uit logius-standaarden-plugin) |
+| "Hoe gebruik ik de ADR geo-module?" | `/ls-api` (uit skills-standaarden) |
