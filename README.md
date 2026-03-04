@@ -1,9 +1,9 @@
-# Geonovum Plugin
+# Geo - Claude Code Plugin
 
 [![EUPL-1.2](https://img.shields.io/badge/licentie-EUPL--1.2-blue.svg)](LICENSE)
 [![skills](https://img.shields.io/badge/skills-6-green.svg)](#skills)
 
-[Claude Code](https://docs.anthropic.com/en/docs/claude-code) plugin voor het werken met [Geonovum](https://www.geonovum.nl) geo-standaarden voor ruimtelijke data in Nederland. Bevat skills voor OGC API services, metadata, informatiemodellen, INSPIRE en 3D standaarden.
+[Claude Code](https://docs.anthropic.com/en/docs/claude-code) plugin voor Nederlandse geo-standaarden voor ruimtelijke data. Bevat skills voor standaarden beheerd door [Geonovum](https://www.geonovum.nl): OGC API services, metadata, informatiemodellen, INSPIRE en 3D standaarden.
 
 ## Installeren
 
@@ -50,7 +50,7 @@ Deze plugin is onderdeel van de [skills-marketplace](https://github.com/develope
 
 ## Disclaimer
 
-Dit is een experimenteel project om te leren hoe generatieve AI gestuurd kan worden om te werken volgens de kaders, richtlijnen en standaarden van de overheid. De skills in deze plugin zijn informatieve samenvattingen — **niet** de officiële standaarden zelf. De definities op [Forum Standaardisatie](https://www.forumstandaardisatie.nl/open-standaarden) en [Geonovum](https://www.geonovum.nl) zijn altijd leidend. Overheidsorganisaties die generatieve AI inzetten dienen te voldoen aan het [Rijksbrede beleidskader voor generatieve AI](https://www.government.nl/documents/policy-notes/2025/01/31/government-wide-position-on-the-use-of-generative-ai). Zie [DISCLAIMER.md](DISCLAIMER.md) voor de volledige disclaimer.
+**Deze plugin is geen officieel product van [Geonovum](https://www.geonovum.nl).** Het is een experimenteel project van [developer.overheid.nl](https://developer.overheid.nl), gebaseerd op publiek beschikbare standaarden en documentatie. De skills zijn informatieve samenvattingen — **niet** de officiële standaarden zelf. De definities op [Forum Standaardisatie](https://www.forumstandaardisatie.nl/open-standaarden) en [Geonovum](https://www.geonovum.nl) zijn altijd leidend. Overheidsorganisaties die generatieve AI inzetten dienen te voldoen aan het [Rijksbrede beleidskader voor generatieve AI](https://www.government.nl/documents/policy-notes/2025/01/31/government-wide-position-on-the-use-of-generative-ai). Zie [DISCLAIMER.md](DISCLAIMER.md) voor de volledige disclaimer.
 
 ## Licentie
 
