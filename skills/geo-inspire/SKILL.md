@@ -40,9 +40,9 @@ De [INSPIRE-richtlijn](https://inspire.ec.europa.eu/) (2007/2/EG) verplicht Euro
 
 ## Repositories
 
-| Repository | Beschrijving |
-|-----------|-------------|
-| [Geonovum/inspire-handreiking](https://github.com/Geonovum/inspire-handreiking) | Nederlandse INSPIRE implementatie handreiking |
+| Repository | Beschrijving | Licentie |
+|-----------|-------------|--------|
+| [Geonovum/inspire-handreiking](https://github.com/Geonovum/inspire-handreiking) | Nederlandse INSPIRE implementatie handreiking | [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/) |
 
 ## INSPIRE Data Thema's
 

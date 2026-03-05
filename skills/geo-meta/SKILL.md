@@ -38,10 +38,10 @@ Metadata beschrijft geodata en -services zodat ze vindbaar, bruikbaar en beoorde
 
 ## Repositories
 
-| Repository | Beschrijving |
-|-----------|-------------|
-| [Geonovum/Metadata-ISO19115](https://github.com/Geonovum/Metadata-ISO19115) | Nederlands profiel op ISO 19115 voor geografie |
-| [Geonovum/Metadata-handreiking](https://github.com/Geonovum/Metadata-handreiking) | Handreiking voor metadata |
+| Repository | Beschrijving | Licentie |
+|-----------|-------------|--------|
+| [Geonovum/Metadata-ISO19115](https://github.com/Geonovum/Metadata-ISO19115) | Nederlands profiel op ISO 19115 voor geografie | [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/) |
+| [Geonovum/Metadata-handreiking](https://github.com/Geonovum/Metadata-handreiking) | Handreiking voor metadata | [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/) |
 
 ## Nederlands Profiel ISO 19115
 

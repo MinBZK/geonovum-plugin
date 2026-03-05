@@ -69,14 +69,14 @@ De geo-standaarden staan op de ['pas-toe-of-leg-uit'-lijst](https://www.forumsta
 
 ## Belangrijke Repositories
 
-| Repository | Beschrijving |
-|-----------|-------------|
-| [Geonovum/ogc-checker](https://github.com/Geonovum/ogc-checker) | Validatietool voor OGC services |
-| [Geonovum/NEN3610-Linkeddata](https://github.com/Geonovum/NEN3610-Linkeddata) | NEN 3610 linked data profiel |
-| [Geonovum/Metadata-ISO19115](https://github.com/Geonovum/Metadata-ISO19115) | Nederlands profiel ISO 19115 metadata |
-| [Geonovum/inspire-handreiking](https://github.com/Geonovum/inspire-handreiking) | INSPIRE implementatie handreiking |
-| [Geonovum/IMGeo](https://github.com/Geonovum/IMGeo) | Informatiemodel Geografie (BGT/IMGeo) |
-| [Geonovum/MIM-Werkomgeving](https://github.com/Geonovum/MIM-Werkomgeving) | Metamodel Informatie Modellering |
+| Repository | Beschrijving | Licentie |
+|-----------|-------------|--------|
+| [Geonovum/ogc-checker](https://github.com/Geonovum/ogc-checker) | Validatietool voor OGC services | [MIT](https://opensource.org/licenses/MIT) |
+| [Geonovum/NEN3610-Linkeddata](https://github.com/Geonovum/NEN3610-Linkeddata) | NEN 3610 linked data profiel | [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/) |
+| [Geonovum/Metadata-ISO19115](https://github.com/Geonovum/Metadata-ISO19115) | Nederlands profiel ISO 19115 metadata | [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/) |
+| [Geonovum/inspire-handreiking](https://github.com/Geonovum/inspire-handreiking) | INSPIRE implementatie handreiking | [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/) |
+| [Geonovum/IMGeo](https://github.com/Geonovum/IMGeo) | Informatiemodel Geografie (BGT/IMGeo) | [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/) |
+| [Geonovum/MIM-Werkomgeving](https://github.com/Geonovum/MIM-Werkomgeving) | Metamodel Informatie Modellering | [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/) |
 
 ## Belangrijke Links
 

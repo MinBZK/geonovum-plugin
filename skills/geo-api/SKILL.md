@@ -41,10 +41,10 @@ OGC-services zijn de standaard manier om geodata beschikbaar te stellen via het 
 
 ## Repositories
 
-| Repository | Beschrijving |
-|-----------|-------------|
-| [Geonovum/ogc-checker](https://github.com/Geonovum/ogc-checker) | Validatietool voor OGC services |
-| [Geonovum/ogc-checker Tags](https://github.com/Geonovum/ogc-checker/tags) | Versies van ogc-checker |
+| Repository | Beschrijving | Licentie |
+|-----------|-------------|--------|
+| [Geonovum/ogc-checker](https://github.com/Geonovum/ogc-checker) | Validatietool voor OGC services | [MIT](https://opensource.org/licenses/MIT) |
+| [Geonovum/ogc-checker Tags](https://github.com/Geonovum/ogc-checker/tags) | Versies van ogc-checker | [MIT](https://opensource.org/licenses/MIT) |
 
 ## WMS (Web Map Service)
 
