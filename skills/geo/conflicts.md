@@ -4,11 +4,11 @@ Geconstateerd: 2026-03-05
 
 ## Ontbrekende licentie in GitHub-repositories
 
-De meeste Geonovum-repositories bevatten geen expliciet `LICENSE`-bestand in GitHub. De gepubliceerde standaarden op [docs.geostandaarden.nl](https://docs.geostandaarden.nl/) vermelden echter CC-BY-4.0 als licentie via de ReSpec-configuratie. Uitzondering is [ogc-checker](https://github.com/Geonovum/ogc-checker) dat een MIT-licentie heeft.
+De meeste Geonovum-repositories bevatten geen expliciet `LICENSE`-bestand in GitHub. De gepubliceerde standaarden op [docs.geostandaarden.nl](https://docs.geostandaarden.nl/) vermelden echter CC-BY-4.0 als licentie via de ReSpec-configuratie. Uitzondering is [ogc-checker](https://github.com/Geonovum/ogc-checker) dat een EUPL-1.2-licentie heeft.
 
 | Repository | GitHub LICENSE | Gepubliceerde licentie | Status |
 |-----------|--------------|----------------------|--------|
-| [Geonovum/ogc-checker](https://github.com/Geonovum/ogc-checker) | MIT | N.v.t. (tooling) | OK |
+| [Geonovum/ogc-checker](https://github.com/Geonovum/ogc-checker) | EUPL-1.2 | N.v.t. (tooling) | OK |
 | [Geonovum/NEN3610-Linkeddata](https://github.com/Geonovum/NEN3610-Linkeddata) | Geen | CC-BY-4.0 (ReSpec) | Discrepantie |
 | [Geonovum/Metadata-ISO19115](https://github.com/Geonovum/Metadata-ISO19115) | Geen | CC-BY-4.0 (ReSpec) | Discrepantie |
 | [Geonovum/inspire-handreiking](https://github.com/Geonovum/inspire-handreiking) | Geen | CC-BY-4.0 (ReSpec) | Discrepantie |

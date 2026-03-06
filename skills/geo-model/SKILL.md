@@ -41,11 +41,11 @@ metadata:
 
 | Repository | Beschrijving | Licentie |
 |-----------|-------------|--------|
-| [Geonovum/NEN3610-Linkeddata](https://github.com/Geonovum/NEN3610-Linkeddata) | NEN 3610 linked data profiel | [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/) |
-| [Geonovum/MIM-Werkomgeving](https://github.com/Geonovum/MIM-Werkomgeving) | Metamodel Informatie Modellering | [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/) |
-| [Geonovum/IMGeo](https://github.com/Geonovum/IMGeo) | Informatiemodel Geografie (BGT/IMGeo) | [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/) |
-| [Geonovum/imro](https://github.com/Geonovum/imro) | Informatiemodel Ruimtelijke Ordening | [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/) |
-| [Geonovum/imkl](https://github.com/Geonovum/imkl) | Informatiemodel Kabels en Leidingen | [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/) |
+| [Geonovum/NEN3610-Linkeddata](https://github.com/Geonovum/NEN3610-Linkeddata) | NEN 3610 linked data profiel | CC-BY-4.0 |
+| [Geonovum/MIM-Werkomgeving](https://github.com/Geonovum/MIM-Werkomgeving) | Metamodel Informatie Modellering | CC-BY-4.0 |
+| [Geonovum/IMGeo](https://github.com/Geonovum/IMGeo) | Informatiemodel Geografie (BGT/IMGeo) | CC-BY-4.0 |
+| [Geonovum/imro](https://github.com/Geonovum/imro) | Informatiemodel Ruimtelijke Ordening | CC-BY-4.0 |
+| [Geonovum/imkl](https://github.com/Geonovum/imkl) | Informatiemodel Kabels en Leidingen | CC-BY-4.0 |
 
 ## NEN 3610 — Basismodel Geo-informatie
 

@@ -40,7 +40,7 @@ Nederland loopt voorop in 3D geo-informatie met de [3D Basisvoorziening](https:/
 
 | Repository | Beschrijving | Licentie |
 |-----------|-------------|--------|
-| [Geonovum/GeoBIM](https://github.com/Geonovum/GeoBIM) | Integratie van GIS en BIM | [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/) |
+| [Geonovum/GeoBIM](https://github.com/Geonovum/GeoBIM) | Integratie van GIS en BIM | CC-BY-4.0 |
 
 ## CityGML
 
