@@ -213,11 +213,7 @@ curl -s "https://inspire.ec.europa.eu/validator/v2/TestRuns/{testRunId}" \
 
 ### Geonovum Handreiking
 
-De [INSPIRE handreiking](https://docs.geostandaarden.nl/eu/INSPIRE-handreiking/) van Geonovum beschrijft:
-- Hoe Nederlandse organisaties moeten voldoen aan INSPIRE
-- Welke datasets als INSPIRE-plichtig zijn aangemerkt
-- Hoe view/download/discovery services ingericht moeten worden
-- Hoe data getransformeerd moet worden naar INSPIRE-datamodellen
+Voor de Nederlandse INSPIRE-implementatie biedt Geonovum de [INSPIRE handreiking](https://docs.geostandaarden.nl/eu/INSPIRE-handreiking/) aan. Raadpleeg deze handreiking voor details over INSPIRE-verplichtingen, datasets en implementatie-eisen. De handreiking heeft een CC-BY-ND-4.0 licentie; de inhoud wordt hier niet samengevat.
 
 ### Monitoring en Rapportage
 
