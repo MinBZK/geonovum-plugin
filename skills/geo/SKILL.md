@@ -71,12 +71,12 @@ De geo-standaarden staan op de ['pas-toe-of-leg-uit'-lijst](https://www.forumsta
 
 | Repository | Beschrijving | Licentie |
 |-----------|-------------|--------|
-| [Geonovum/ogc-checker](https://github.com/Geonovum/ogc-checker) | Validatietool voor OGC services | [EUPL-1.2](https://github.com/Geonovum/ogc-checker/blob/main/LICENSE) |
-| [Geonovum/NEN3610-Linkeddata](https://github.com/Geonovum/NEN3610-Linkeddata) | NEN 3610 linked data profiel | CC-BY-4.0 |
-| [Geonovum/Metadata-ISO19115](https://github.com/Geonovum/Metadata-ISO19115) | Nederlands profiel ISO 19115 metadata | CC-BY-4.0 |
-| [Geonovum/inspire-handreiking](https://github.com/Geonovum/inspire-handreiking) | INSPIRE implementatie handreiking | CC-BY-4.0 |
-| [Geonovum/IMGeo](https://github.com/Geonovum/IMGeo) | Informatiemodel Geografie (BGT/IMGeo) | CC-BY-4.0 |
-| [Geonovum/MIM-Werkomgeving](https://github.com/Geonovum/MIM-Werkomgeving) | Metamodel Informatie Modellering | CC-BY-4.0 |
+| [Geonovum/ogc-checker](https://github.com/Geonovum/ogc-checker) | Validatietool voor OGC services | [EUPL-1.2](https://eupl.eu/1.2/en) |
+| [Geonovum/NEN3610-Linkeddata](https://github.com/Geonovum/NEN3610-Linkeddata) | NEN 3610 linked data profiel | [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/legalcode.en) |
+| [Geonovum/Metadata-ISO19115](https://github.com/Geonovum/Metadata-ISO19115) | Nederlands profiel ISO 19115 metadata | [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/legalcode.en) |
+| [Geonovum/inspire-handreiking](https://github.com/Geonovum/inspire-handreiking) | INSPIRE implementatie handreiking | [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/legalcode.en) |
+| [Geonovum/IMGeo](https://github.com/Geonovum/IMGeo) | Informatiemodel Geografie (BGT/IMGeo) | [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/legalcode.en) |
+| [Geonovum/MIM-Werkomgeving](https://github.com/Geonovum/MIM-Werkomgeving) | Metamodel Informatie Modellering | [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/legalcode.en) |
 
 ## Belangrijke Links
 
