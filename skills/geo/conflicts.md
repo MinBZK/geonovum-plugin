@@ -14,10 +14,10 @@ De meeste Geonovum-repositories bevatten geen expliciet `LICENSE`-bestand in Git
 | [Geonovum/inspire-handreiking](https://github.com/Geonovum/inspire-handreiking) | Geen | CC-BY-ND-4.0 (ReSpec) | Discrepantie |
 | [Geonovum/IMGeo](https://github.com/Geonovum/IMGeo) | Geen | CC-BY-4.0 (ReSpec) | Discrepantie |
 | [Geonovum/MIM-Werkomgeving](https://github.com/Geonovum/MIM-Werkomgeving) | Geen | CC-BY-4.0 (ReSpec) | Discrepantie |
-| [Geonovum/GeoBIM](https://github.com/Geonovum/GeoBIM) | Geen | CC-BY-4.0 (ReSpec) | Discrepantie |
+| [Geonovum/GeoBIM](https://github.com/Geonovum/GeoBIM) | Geen | Geen (geen ReSpec config aanwezig) | Niet gespecificeerd |
 | [Geonovum/Metadata-handreiking](https://github.com/Geonovum/Metadata-handreiking) | Geen | CC-BY-4.0 (ReSpec) | Discrepantie |
 | [Geonovum/imro](https://github.com/Geonovum/imro) | Geen | CC-BY-ND-4.0 (ReSpec) | Discrepantie |
-| [Geonovum/imkl](https://github.com/Geonovum/imkl) | Geen | CC-BY-4.0 (ReSpec) | Discrepantie |
+| [Geonovum/imkl](https://github.com/Geonovum/imkl) | Geen | Geen (geen ReSpec config aanwezig) | Niet gespecificeerd |
 
 ### Aandachtspunt
 
