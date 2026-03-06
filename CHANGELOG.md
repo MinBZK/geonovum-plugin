@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.0](https://github.com/developer-overheid-nl/skills-geo/compare/v0.1.3...v0.2.0) (2026-03-06)
+
+
+### Toegevoegd
+
+* voeg licentiekolom toe aan Repositories-tabellen ([#37](https://github.com/developer-overheid-nl/skills-geo/issues/37)) ([f019716](https://github.com/developer-overheid-nl/skills-geo/commit/f019716754a0ada15a236deb5628003c8752293e))
+
 ## [0.1.3](https://github.com/developer-overheid-nl/skills-geo/compare/v0.1.2...v0.1.3) (2026-02-23)
 
 
