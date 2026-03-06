@@ -34,7 +34,7 @@ metadata:
 | MIM 1.2 | Metamodel | Regels voor het opstellen van informatiemodellen | Aanbevolen |
 | IMGeo 2.2 / BGT | Sectormodel | Grootschalige topografie | Verplicht (als sectormodel) |
 | IMBAG | Sectormodel | Adressen en gebouwen | Verplicht (als sectormodel) |
-| IMRO | Sectormodel | Ruimtelijke ordening | Verplicht (als sectormodel) |
+| IMRO | Sectormodel | Ruimtelijke ordening (CC-BY-ND-4.0; raadpleeg [officiële bron](https://docs.geostandaarden.nl/ro/imro/)) | Verplicht (als sectormodel) |
 | IMKL | Sectormodel | Kabels en leidingen | Verplicht (als sectormodel) |
 
 ## Repositories
