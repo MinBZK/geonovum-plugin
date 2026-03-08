@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.2.1](https://github.com/developer-overheid-nl/skills-geo/compare/v0.2.0...v0.2.1) (2026-03-07)
+
+
+### Opgelost
+
+* normalize_html strip Liferay Sharing script blok ([#51](https://github.com/developer-overheid-nl/skills-geo/issues/51)) ([21e8757](https://github.com/developer-overheid-nl/skills-geo/commit/21e87571a9bf1b65eda162583becb58f1b262b91))
+* sync plugin.json source of truth with release-please ([#45](https://github.com/developer-overheid-nl/skills-geo/issues/45)) ([efa2de2](https://github.com/developer-overheid-nl/skills-geo/commit/efa2de25527df9500c8af142d81d5cf40e470acc))
+
 ## [0.2.0](https://github.com/developer-overheid-nl/skills-geo/compare/v0.1.3...v0.2.0) (2026-03-06)
 
 
