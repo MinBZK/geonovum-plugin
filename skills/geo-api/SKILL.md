@@ -43,7 +43,7 @@ OGC-services zijn de standaard manier om geodata beschikbaar te stellen via het 
 
 | Repository | Beschrijving | Licentie |
 |-----------|-------------|--------|
-| [Geonovum/ogc-checker](https://github.com/Geonovum/ogc-checker) | Validatietool voor OGC services | [EUPL-1.2](https://eupl.eu/1.2/en) |
+| [Geonovum/ogc-checker](https://github.com/Geonovum/ogc-checker) | Validatietool voor OGC services (v1.0.0) | [EUPL-1.2](https://eupl.eu/1.2/en) |
 | [Geonovum/ogc-checker Tags](https://github.com/Geonovum/ogc-checker/tags) | Versies van ogc-checker | [EUPL-1.2](https://eupl.eu/1.2/en) |
 
 ## WMS (Web Map Service)
@@ -230,7 +230,7 @@ print(f"Gevonden: {len(data['features'])} panden")
 
 ## ogc-checker Validatie
 
-De [ogc-checker](https://github.com/Geonovum/ogc-checker) is een validatietool van Geonovum om OGC-services te controleren op conformiteit.
+De [ogc-checker](https://github.com/Geonovum/ogc-checker) (v1.0.0) is een validatietool van Geonovum om OGC-services te controleren op conformiteit.
 
 ```bash
 # Repo-informatie ophalen
