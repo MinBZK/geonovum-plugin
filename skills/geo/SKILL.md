@@ -18,9 +18,9 @@ metadata:
   status: concept
 ---
 
-# Geonovum Geo-standaarden - Overzicht
+> **CONCEPT — Let op:** Deze skill is geen officieel product van Geonovum. De beschrijvingen zijn informatieve samenvattingen — niet de officiële standaarden zelf. De definities op [forumstandaardisatie.nl](https://www.forumstandaardisatie.nl/open-standaarden) en [Geonovum](https://www.geonovum.nl) zijn altijd leidend. Overheidsorganisaties die generatieve AI inzetten dienen te voldoen aan het [Overheidsbreed standpunt voor de inzet van generatieve AI](https://open.overheid.nl/documenten/bc03ce31-0cf1-4946-9c94-e934a62ebe73/file). Zie [DISCLAIMER.md](../../DISCLAIMER.md) en onze [verantwoording](https://github.com/developer-overheid-nl/skills-marketplace/blob/main/docs/verantwoording.md).
 
-> **CONCEPT** — Deze skill is in ontwikkeling. Voor meer informatie zie onze [verantwoording](https://github.com/developer-overheid-nl/skills-marketplace/blob/main/docs/verantwoording.md).
+# Geonovum Geo-standaarden - Overzicht
 
 **Agent-instructie:** Gebruik deze skill om de gebruiker naar het juiste geo-domein te routeren. Bij een domein-specifieke vraag, verwijs naar de juiste `/geo-*` skill. Bij brede vragen over het geo-standaarden ecosysteem, gebruik de informatie hieronder en de gh commando's.
 
@@ -117,7 +117,3 @@ gh api orgs/Geonovum/repos --paginate \
 | "Hoe voldoe ik aan INSPIRE?" | `/geo-inspire` |
 | "Hoe werk ik met CityGML of 3D data?" | `/geo-3d` |
 | "Hoe gebruik ik de ADR geo-module?" | `/ls-api` (uit skills-standaarden) |
-
----
-
-> Zie de [disclaimer](https://github.com/developer-overheid-nl/skills-marketplace/blob/main/DISCLAIMER.md) voor de volledige gebruiksvoorwaarden.

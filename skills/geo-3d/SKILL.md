@@ -18,9 +18,9 @@ metadata:
   status: concept
 ---
 
-# 3D Standaarden voor Geodata
+> **CONCEPT — Let op:** Deze skill is geen officieel product van Geonovum. De beschrijvingen zijn informatieve samenvattingen — niet de officiële standaarden zelf. De definities op [forumstandaardisatie.nl](https://www.forumstandaardisatie.nl/open-standaarden) en [Geonovum](https://www.geonovum.nl) zijn altijd leidend. Overheidsorganisaties die generatieve AI inzetten dienen te voldoen aan het [Overheidsbreed standpunt voor de inzet van generatieve AI](https://open.overheid.nl/documenten/bc03ce31-0cf1-4946-9c94-e934a62ebe73/file). Zie [DISCLAIMER.md](../../DISCLAIMER.md) en onze [verantwoording](https://github.com/developer-overheid-nl/skills-marketplace/blob/main/docs/verantwoording.md).
 
-> **CONCEPT** — Deze skill is in ontwikkeling. Voor meer informatie zie onze [verantwoording](https://github.com/developer-overheid-nl/skills-marketplace/blob/main/docs/verantwoording.md).
+# 3D Standaarden voor Geodata
 
 **Agent-instructie:** Deze skill helpt bij het werken met 3D geo-standaarden, van CityGML-modellering tot 3D Tiles-visualisatie. Gebruik de voorbeelden voor het benaderen van de 3D Basisvoorziening en het converteren tussen formaten. Verwijs naar `/geo-model` voor de relatie met NEN 3610 en informatiemodellen.
 
@@ -282,7 +282,3 @@ Digital twins gebruiken 3D geo-standaarden als basis:
 ## Achtergrondinfo
 
 Zie [reference.md](reference.md) voor gedetailleerde CityGML-encoding, 3D Tiles specificatie-details, en LOD-uitleg.
-
----
-
-> Zie de [disclaimer](https://github.com/developer-overheid-nl/skills-marketplace/blob/main/DISCLAIMER.md) voor de volledige gebruiksvoorwaarden.

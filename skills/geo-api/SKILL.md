@@ -20,9 +20,9 @@ metadata:
   status: concept
 ---
 
-# OGC API Services & Kaartdiensten
+> **CONCEPT — Let op:** Deze skill is geen officieel product van Geonovum. De beschrijvingen zijn informatieve samenvattingen — niet de officiële standaarden zelf. De definities op [forumstandaardisatie.nl](https://www.forumstandaardisatie.nl/open-standaarden) en [Geonovum](https://www.geonovum.nl) zijn altijd leidend. Overheidsorganisaties die generatieve AI inzetten dienen te voldoen aan het [Overheidsbreed standpunt voor de inzet van generatieve AI](https://open.overheid.nl/documenten/bc03ce31-0cf1-4946-9c94-e934a62ebe73/file). Zie [DISCLAIMER.md](../../DISCLAIMER.md) en onze [verantwoording](https://github.com/developer-overheid-nl/skills-marketplace/blob/main/docs/verantwoording.md).
 
-> **CONCEPT** — Deze skill is in ontwikkeling. Voor meer informatie zie onze [verantwoording](https://github.com/developer-overheid-nl/skills-marketplace/blob/main/docs/verantwoording.md).
+# OGC API Services & Kaartdiensten
 
 **Agent-instructie:** Deze skill helpt bij het implementeren en gebruiken van OGC geo-webservices. Gebruik curl-voorbeelden voor PDOK-services en de ogc-checker voor validatie. OGC API Features en OGC API Tiles zijn verplicht onder ['pas-toe-of-leg-uit'](https://www.forumstandaardisatie.nl/open-standaarden/geo-standaarden); WMS en WFS zijn aanbevolen (sinds september 2024).
 
@@ -283,7 +283,3 @@ ogr2ogr -f "GeoJSON" /tmp/panden_wgs84.geojson \
 ## Achtergrondinfo
 
 Zie [reference.md](reference.md) voor uitgebreide OGC-protocoldetails, CRS-handling (EPSG:28992/RD New), en de volledige PDOK-servicecatalogus.
-
----
-
-> Zie de [disclaimer](https://github.com/developer-overheid-nl/skills-marketplace/blob/main/DISCLAIMER.md) voor de volledige gebruiksvoorwaarden.

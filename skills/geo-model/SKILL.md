@@ -18,9 +18,9 @@ metadata:
   status: concept
 ---
 
-# Informatiemodellen voor Geodata
+> **CONCEPT — Let op:** Deze skill is geen officieel product van Geonovum. De beschrijvingen zijn informatieve samenvattingen — niet de officiële standaarden zelf. De definities op [forumstandaardisatie.nl](https://www.forumstandaardisatie.nl/open-standaarden) en [Geonovum](https://www.geonovum.nl) zijn altijd leidend. Overheidsorganisaties die generatieve AI inzetten dienen te voldoen aan het [Overheidsbreed standpunt voor de inzet van generatieve AI](https://open.overheid.nl/documenten/bc03ce31-0cf1-4946-9c94-e934a62ebe73/file). Zie [DISCLAIMER.md](../../DISCLAIMER.md) en onze [verantwoording](https://github.com/developer-overheid-nl/skills-marketplace/blob/main/docs/verantwoording.md).
 
-> **CONCEPT** — Deze skill is in ontwikkeling. Voor meer informatie zie onze [verantwoording](https://github.com/developer-overheid-nl/skills-marketplace/blob/main/docs/verantwoording.md).
+# Informatiemodellen voor Geodata
 
 **Agent-instructie:** Deze skill helpt bij het werken met Nederlandse geo-informatiemodellen, van het basismodel NEN 3610 tot sectormodellen. Gebruik de modelstructuur en voorbeelden om conforme data-uitwisseling te genereren. NEN 3610 is verplicht onder ['pas-toe-of-leg-uit'](https://www.forumstandaardisatie.nl/open-standaarden/geo-standaarden) van het Forum Standaardisatie.
 
@@ -228,7 +228,3 @@ Voorbeelden:
 ## Achtergrondinfo
 
 Zie [reference.md](reference.md) voor NEN 3610 UML-details, MIM-modelleringsregels, en een uitgebreid overzicht van sectormodellen.
-
----
-
-> Zie de [disclaimer](https://github.com/developer-overheid-nl/skills-marketplace/blob/main/DISCLAIMER.md) voor de volledige gebruiksvoorwaarden.
