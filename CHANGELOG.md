@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.4](https://github.com/developer-overheid-nl/skills-geo/compare/v0.2.3...v0.2.4) (2026-03-14)
+
+
+### Opgelost
+
+* verbreed Liferay AUI IIFE normalisatie ([#77](https://github.com/developer-overheid-nl/skills-geo/issues/77)) ([1ef70d0](https://github.com/developer-overheid-nl/skills-geo/commit/1ef70d01e2391447e39cbea5e7f75769db337e05))
+
 ## [0.2.3](https://github.com/developer-overheid-nl/skills-geo/compare/v0.2.2...v0.2.3) (2026-03-12)
 
 
