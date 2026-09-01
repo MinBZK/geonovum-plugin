@@ -38,7 +38,7 @@ OGC-services zijn de standaard manier om geodata beschikbaar te stellen via het 
 
 | Repository | Beschrijving | Licentie |
 |-----------|-------------|--------|
-| [Geonovum/ogc-checker](https://github.com/Geonovum/ogc-checker) | Validatietool voor OGC services (v1.1.0) | [EUPL-1.2](https://eupl.eu/1.2/en) |
+| [Geonovum/ogc-checker](https://github.com/Geonovum/ogc-checker) | Validatietool voor OGC services (v1.3.0) | [EUPL-1.2](https://eupl.eu/1.2/en) |
 | [Geonovum/ogc-checker Tags](https://github.com/Geonovum/ogc-checker/tags) | Versies van ogc-checker | [EUPL-1.2](https://eupl.eu/1.2/en) |
 
 ## WMS (Web Map Service)
@@ -225,7 +225,26 @@ print(f"Gevonden: {len(data['features'])} panden")
 
 ## ogc-checker Validatie
 
-De [ogc-checker](https://github.com/Geonovum/ogc-checker) (v1.1.0) is een validatietool van Geonovum om OGC-services te controleren op conformiteit.
+De [ogc-checker](https://github.com/Geonovum/ogc-checker) (v1.3.0) is een validatietool van Geonovum om OGC-services te controleren op conformiteit.
+
+De CLI kiest een standaard met `--standard <slug>` en optioneel `--version <id>`; zonder `--version` wordt de laatste **final** versie gebruikt. De oude vlag `--ruleset` werkt nog als deprecated alias en waarschuwt op stderr.
+
+| Standaard | Slug | Versies |
+|-----------|------|---------|
+| JSON-FG | `json-fg` | `1.0` |
+| OGC API Features | `ogc-api-features` | `1.0` |
+| OGC API Processes | `ogc-api-processes` | `1.0.0` (default, goedgekeurd 18-062r2), `2.0.0` (draft) |
+| OGC API Records | `ogc-api-records` | draft |
+
+```bash
+# Valideer tegen de laatste vastgestelde versie van een standaard
+npx @geonovum/ogc-checker --standard ogc-api-features https://service.example.nl/collections
+
+# Expliciet de OGC API Processes 2.0 draft kiezen
+npx @geonovum/ogc-checker --standard ogc-api-processes --version 2.0.0 ./openapi.json
+```
+
+> **Let op:** sinds v1.2.0 selecteert `--standard ogc-api-processes` de goedgekeurde 1.0-versie in plaats van de 2.0-draft. Vanaf v1.3.0 vereist de CLI Node 22 of hoger (Node 20 is end-of-life).
 
 ```bash
 # Repo-informatie ophalen
