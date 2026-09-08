@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.12](https://github.com/developer-overheid-nl/skills-geo/compare/v0.3.11...v0.3.12) (2026-09-08)
+
+
+### Opgelost
+
+* normaliseer /pull/N-links naar de repo in extract_urls ([#326](https://github.com/developer-overheid-nl/skills-geo/issues/326)) ([8fbcec6](https://github.com/developer-overheid-nl/skills-geo/commit/8fbcec67064973ef1643b5c1ab496f32682b527e))
+
 ## [0.3.11](https://github.com/developer-overheid-nl/skills-geo/compare/v0.3.10...v0.3.11) (2026-08-31)
 
 
