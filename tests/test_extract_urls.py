@@ -87,6 +87,13 @@ class TestNormalizeGithubUrl:
             == "https://github.com/Geonovum/ogc-checker"
         )
 
+    def test_pull_request_verwijderd(self):
+        """Een link naar een PR wijst naar de repo, niet naar een aparte bron."""
+        assert (
+            normalize_github_url("https://github.com/Geonovum/ogc-checker/pull/65")
+            == "https://github.com/Geonovum/ogc-checker"
+        )
+
     def test_tree_main_verwijderd(self):
         assert (
             normalize_github_url("https://github.com/Geonovum/ogc-checker/tree/main")

@@ -66,7 +66,7 @@ def clean_url(url: str) -> str:
 # Regex om GitHub repo-URLs te normaliseren naar base repo pad
 _GITHUB_REPO_BASE_RE = re.compile(
     r"(https://github\.com/Geonovum/[A-Za-z0-9._-]+)"
-    r"(?:/(?:tags|tree|blob|issues|pulls|releases|actions|wiki|discussions|commit|compare)(?:/.*)?)?$"
+    r"(?:/(?:tags|tree|blob|issues|pulls?|releases|actions|wiki|discussions|commit|compare)(?:/.*)?)?$"
 )
 
 
